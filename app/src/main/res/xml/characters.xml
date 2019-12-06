@@ -1,5 +1,5 @@
 <set>
-
+<character>
     <name>Son Goku</name>
     <subname>Super Saiyan 3</subname>
     <limited>Yes</limited>
@@ -129,4 +129,6 @@
             *Armure d'énergie lors de la charge
         </desc>
     </ultimate>
+
+</character>
 </set>
