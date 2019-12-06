@@ -1,0 +1,132 @@
+<set>
+
+    <name>Son Goku</name>
+    <subname>Super Saiyan 3</subname>
+    <limited>Yes</limited>
+    <zenkai>No</zenkai>
+
+    <tags>
+        <tag>Famille Goku</tag>
+        <tag>Saiyan</tag>
+        <tag>Super Saiyan 3</tag>
+    </tags>
+
+
+    <main>
+        <name>Vas-y, Carot ...</name>
+        <desc>
+            Tire la carte d'art ultime "Super Genkidama" au tour suivant.
+            Régénère la force de 30% et le ki de 20.
+            Annule les désavantages liés à l'attribut pendant 3 secondes.
+            Octroie un bonus de stats réduisant de 50% l'effet "Réduction des dégâts subis de l'adversaire pendant 30 secondes.
+
+            Condition d'utilisation : après 25 secondes
+        </desc>
+    </main>
+
+    <zabilities>
+        <z>
+            <desc>Lors d'un combat, augmente de 17% la défense physique de base des "Classe : Saiyan".</desc>
+            <tag>Saiyan</tag>
+            <effect>strike_def</effect>
+            <power>17</power>
+        </z>
+
+        <z>
+            <desc>Lors d'un combat, augmente de 22% la défense physique et d'énergie de base des "Classe : Saiyan".</desc>
+            <tag>Saiyan</tag>
+            <effect>strike_def</effect>
+            <effect>blast_def</effect>
+            <power>22</power>
+        </z>
+
+        <z>
+            <desc>Lors d'un combat, augmente de 28% la défense physique et d'énergie de base des "Classe : Saiyan".</desc>
+            <tag>Saiyan</tag>
+            <effect>strike_def</effect>
+            <effect>blast_def</effect>
+            <power>28</power>
+        </z>
+
+        <z>
+            <desc>Lors d'un combat, augmente de 32% la défense physique et d'énergie de base des "Classe : Saiyan".</desc>
+            <tag>Saiyan</tag>
+            <effect>strike_def</effect>
+            <effect>blast_def</effect>
+            <power>32</power>
+        </z>
+    </zabilities>
+
+    <passives>
+        <passive>
+            <name>Combat fatal</name>
+            <desc>
+                Au début du combat, augmente de 40% les dégâts infligés (annulation impossible).
+                Après 40 secondes écoulées depuis le début du combat, les effets suivants s'activent :
+                    - Réduit de 5 le coût des arts physiques et d'énergie (annulation impossible).
+                    - Augmente de 1 rang la vitesse de pioche de cartes d'arts (annulation impossible).
+                    - Réduit de 20% les dégâts subis (annulation impossible).
+            </desc>
+        </passive>
+
+        <passive>
+            <name>Merci, les Dragon Balls !!</name>
+            <desc>
+                Lors de la première mise à couvert uniquement, change de personnage sans subir les dégâts de l'ennemi puis rallonge de 3 secondes votre durée de mise en attente (compatible avec rempart).
+
+                Lorsque vous êtes sur le terrain et que l'adversaire effectue un remplacement, les effets suivants s'activent :
+                    - Augmente de 20% les dégâts infligés pendant 15 secondes.
+                    - Augmente de 10% les dégâts ultimes infligés (annulation impossible).
+                    - Augmente de 1 votre nombre de Dragon Balls (se déclenche 1 fois).
+            </desc>
+        </passive>
+    </passives>
+
+    <heldcards>
+        <strike>break</strike>
+        <blast />
+    </heldcards>
+
+    <stats>
+        <health>22435</health>
+        <strike_atk>2337</strike_atk>
+        <blast_atk>2627</blast_atk>
+        <strike_def>1564</strike_def>
+        <blast_def>1564</blast_def>
+        <critical>1433</critical>
+        <kiregen>2375</kiregen>
+    </stats>
+
+    <blue>
+        <name>Super Kamehameha</name>
+        <learnable>Yes</learnable>
+        <desc>
+            Inflige des dégâts élevés de type Choc à l'adversaire.
+            Lorsque l'attaque touche l'adversaire, réduit son ki de 40.
+        </desc>
+    </blue>
+
+    <green>
+        <name>Téléportation - Attaque dans le dos</name>
+        <desc>
+            Lorsque vous êtes en garde, un contre se déclenche en réaction aux arts d'énergie de l'adversaire.
+            Lorsque vous réussissez un contre, régénère le ki de 30 et détruit aléatoirement 2 des cartes de l'adversaire.
+
+            [Arts avec lesquels il est possible d'enchaîner]
+            - Arts spéciaux.
+        </desc>
+    </green>
+
+    <ultimate>
+        <name>Super Genkidama</name>
+        <desc>
+            Inflige des dégâts colossaux de type Explosion à l'adversaire.
+            Les effets suviants s'activent :
+
+                - Augmente de 50% les dégâts ultimes infligés pendant 3 secondes.
+                - Lorsque vous attaquez, annule l'effet "régénère la force lorsque cette dernière descend à 0" de l'adversaire pendant 3 secondes.
+
+            *Armure d'énergie lors de la charge
+        </desc>
+    </ultimate>
+</set>
